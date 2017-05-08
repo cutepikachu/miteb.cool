@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- miteb.cool main html, enjoy my crappy coding :) -CutePikachu 2k17 -->
+<!-- shoutout to WamWooWam for fixing my shitty code -->
 <!-- (c) FuckWorld LLC 2017 -->
 <html>
     <head>
@@ -18,11 +19,25 @@
                 margin-top: -50px;
                 margin-left: -100px;
             }
+            .container {
+            height:100vh;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            }
         </style>
     </head>
     <body>
-        <!--<img id="mite" class="centered"> -->
-        <img src="dan_mite.jpg" class="centered">
-        <h1 class="centered" id="mitebcool">mite b cool</h1>
+        <div class="container">
+            <div class="content">
+                <img src="dan_mite.jpg">
+            </div>
+        </div>
     </body>
 </html>
